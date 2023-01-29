@@ -6,12 +6,12 @@ We need a way to calculate where we end up if we go back or forth x number of wo
 According to this rule then 15:07 + 0.25 working days will be 9:07, and 4:00 + 0.5 working days will be 12:00.
 
 Example
- Set workday start 08:00, end 16:00
- Set recurring holiday 17 May.
- Set single holiday 27 May 2004.
- Start date = 24.05.2004 18:05
- Add -5.5 workdays.
- The result should be 14.05.2004 12:00
+- Set workday start 08:00, end 16:00
+- Set recurring holiday 17 May.
+- Set single holiday 27 May 2004.
+- Start date = 24.05.2004 18:05
+- Add -5.5 workdays.
+- The result should be 14.05.2004 12:00
 
 Some other correct results:
 24-05-2004 19:03 with the addition of 44.723656 working days is 27-07-2004 13:47
